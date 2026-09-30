@@ -9,17 +9,17 @@ export default function Home() {
        id="top"
        className="flex flex-col items-center justify-center min-h-screen text-center px-8"
      >
-    <div className="mb-8">
-       <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full border-4 border-cyan-400/60 shadow-[0_0_35px_rgba(34,211,238,0.25)]">
-      <Image
-          src="/profile.jpg"
-          alt="Shruti Sinha"
-          fill
-          className="object-cover object-[center_25%]"
-          priority
-      />
-       </div>
-     </div>
+   <div className="mb-8">
+  <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full border-4 border-cyan-400/60 shadow-[0_0_35px_rgba(34,211,238,0.25)]">
+    <Image
+      src="/profile.jpg"
+      alt="Shruti Sinha"
+      fill
+      className="object-cover object-[center_top]"
+      priority
+    />
+  </div>
+</div>
 
         <h1 className="text-6xl md:text-7xl font-bold mb-8">
           Hi, I'm{" "}
